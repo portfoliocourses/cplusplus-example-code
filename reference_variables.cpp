@@ -4,7 +4,7 @@
 * 
 * Description: Examples of using reference variables in C++.
 *
-* YouTube Lesson: https://www.youtube.com/watch?v=X1dGUSVnavQ 
+* YouTube Lesson: https://www.youtube.com/watch?v=e3DN1RaYVYQ 
 *
 * Author: Kevin Browne @ https://portfoliocourses.com
 *
