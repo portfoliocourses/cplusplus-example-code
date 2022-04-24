@@ -4,11 +4,11 @@
 * 
 * Description: Example of how to use a pure virtual destructor in C++.  We 
 * would use a pure virtual destructor when we want a class to be abstract BUT 
-* we also want to implement all the other member functions in the base class 
-* (perhaps so derived classes can optionally inherit and use these 
-* implementations).
+* we also don't want any of the other member functions to be pure virtual 
+* member functions (perhaps so derived classes can optionally inherit and use 
+* these member function implementations).
 *
-* YouTube Lesson: https://www.youtube.com/watch?v=IPWjMycqJoY
+* YouTube Lesson: https://www.youtube.com/watch?v=76FlItOH8cE 
 *
 * Author: Kevin Browne @ https://portfoliocourses.com
 *
@@ -24,8 +24,8 @@ class Base
 {
 public:
 
-  // We implement all of the other member functions of Base, in this case 
-  // just this one function func(), despite the fact that it is an abstract 
+  // All the other member functions are NOT pure virtiual functions, in this 
+  // case just the function func(), despite the fact that it is an abstract 
   // class due to the pure virtual destructor.  This is a virtual member 
   // function so when derived classes overide this member function we will 
   // have dynamic binding / runtime polymorphism behaviour.
@@ -92,8 +92,10 @@ public:
 
 int main()
 {
-  // Despite the fact that all functions have implementations, because the 
-  // destructor is a pure virtual destructor, Base is an abstract class!
+  // Despite the fact that all member functions aside from the destructor 
+  // are NOT pure virtual member functions, because the destructor IS a pure 
+  // virtual destructor, Base is an abstract class!
+  ///
   // So we cannot create an instance of the Base class as below:
   // 
   // Base base;
@@ -124,14 +126,16 @@ int main()
     delete array[i];
 
 
-  // So we have an abstract class Base, and yet all of the member functions 
-  // have an implemention, and derived classes can use these implementations.
+  // So we have an abstract class Base, and yet aside from the destructor none 
+  // of the member functions are pure virtual member functions, and the 
+  // derived classes can use these implementations by not overriding them.
+  //
   // Normally when we have an abstract class it's because we have a pure 
   // virtual member function that is not the destructor, and if our derived 
   // classes do not override all the pure virtual member functions they will 
   // become abstract classes themselves.  Here our derived classes are still 
   // concrete classes whether they overide the destructor or not, and they 
-  // can utilize the implementation of the member function in the base class.
+  // can utilize the implementation of the member function(s) in the base class.
   
   return 0;
 }
