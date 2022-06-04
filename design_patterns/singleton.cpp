@@ -6,7 +6,7 @@
 * This implementation is thread-safe and uses lazy instantiation. For more 
 * information Singletons see: https://en.wikipedia.org/wiki/Singleton_pattern.
 *
-* YouTube Lesson: https://www.youtube.com/watch?v=92GqLel9LSg 
+* YouTube Lesson: https://www.youtube.com/watch?v=wP3glUDGhi8 
 *
 * Author: Kevin Browne @ https://portfoliocourses.com
 *
