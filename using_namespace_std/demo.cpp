@@ -8,7 +8,7 @@
 * header files of large multi-file projects as it pollutes the global namespace
 * and leads to name conflicts.
 *
-* YouTube Lesson: https://www.youtube.com/watch?v=rl1_gkRpJyI 
+* YouTube Lesson: https://www.youtube.com/watch?v=8gZNFt0YEZI 
 *
 * Author: Kevin Browne @ https://portfoliocourses.com
 *
