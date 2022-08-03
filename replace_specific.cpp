@@ -115,7 +115,7 @@ int main()
   for (int i = 0; i < lines.size(); i++)
   {
     // If the current index is not the line number we wish to replace, write 
-    // the line back to the file, OTHERWISE if it IS the line we want ro  
+    // the line back to the file, OTHERWISE if it IS the line we want to  
     // replace write the replacement text back to the file instead.
     if (i != line_number)
       write_file << lines[i] << endl;
