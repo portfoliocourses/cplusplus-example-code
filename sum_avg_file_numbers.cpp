@@ -3,7 +3,7 @@
 * Program: Find The Sum And Average Of Numbers In A File
 *
 * Description: Program to find the sum and average of numbers contained on each
-* line of a file.
+* line of a file using C++.
 *
 * YouTube Lesson: https://www.youtube.com/watch?v=MM8DCSdicrI
 *
