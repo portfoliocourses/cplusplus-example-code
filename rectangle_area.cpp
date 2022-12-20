@@ -4,7 +4,7 @@
 *
 * Description: Demonstration of how to calculate the area of a rectangle using
 * user input values with C++.  Remember that the area of a rectangle is
-* length x width of the rectangle.
+* length x width of the rectangle. 
 *
 * YouTube Lesson: https://www.youtube.com/watch?v=co91qbu3rh0
 *
