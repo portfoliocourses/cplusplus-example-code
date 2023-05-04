@@ -5,7 +5,7 @@
 * Description: Implementation of the Bubble Sort algorithm in C++. See the 
 * Wikipedia article on Bubble Sort: https://en.wikipedia.org/wiki/Bubble_sort
 *
-* YouTube Lesson: https://www.youtube.com/watch?v=YqzNgaFQEh8 
+* YouTube Lesson: https://www.youtube.com/watch?v=62Ai0p1xUpE 
 *
 * Author: Kevin Browne @ https://portfoliocourses.com
 *
