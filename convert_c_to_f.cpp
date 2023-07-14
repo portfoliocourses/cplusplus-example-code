@@ -5,7 +5,7 @@
 * Description: Program to convert a temperature in Celsius to a temperature in 
 * Fahrenheit using C++.
 *
-* YouTube Lesson: https://www.youtube.com/watch?v=rHe_FAp5H1w 
+* YouTube Lesson: https://www.youtube.com/watch?v=bEzG6bpNmRk 
 *
 * Author: Kevin Browne @ https://portfoliocourses.com
 *
@@ -31,7 +31,10 @@ int main()
   
   // Convert the temperature in celsius to the temperature in fahrenheit using 
   // the formula: https://en.wikipedia.org/wiki/Fahrenheit.  Store the 
-  // converted temperature into the variable fahrenheit.
+  // converted temperature into the variable fahrenheit.  Note it is important
+  // that we divide 9.0/5.0 and not 9/5 as the latter will result in integer
+  // division (i.e. 1 and not 1.8) which will then result in the formula 
+  // producing incorrect results.
   fahrenheit = (9.0/5.0) * celsius + 32;
   
   // Output the temperature in fahrenheit with 2 decimal digits of precision 
